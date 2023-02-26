@@ -8,8 +8,7 @@ void main() {
     num = num ~/ 10;
     count++;
   }
-  var power = pow(10, rotation);
   var right = (temp ~/ pow(10, rotation)) ;
-  var left = (temp % power)* pow(10,count-rotation);
+  var left = (temp % pow(10, rotation))* pow(10,count-rotation);
   print(left + right);
 }

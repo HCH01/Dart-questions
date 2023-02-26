@@ -6,6 +6,7 @@ void party(List<int> arr) {
     if (map[arr[i]] != null) {
       print('boys');
       flag = true;
+      break;
     }
     map[arr[i]] = 1;
   }

@@ -1,3 +1,4 @@
+//identify girl or boy's party
 void party(List<int> arr) {
   var map = {};
   bool flag = false;

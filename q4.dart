@@ -9,3 +9,17 @@ void main() {
     if (count[i] == 0) print(i+1);
   }
 }
+
+/* Efficient solution with constant space complexity
+
+void main() {
+  var li = [1, 2, 4, 3, 6];
+  int n = li.length + 2;
+  int totalSum = n * (n - 1) ~/ 2;
+  int sum = 0;
+  for (int i = 0; i < n - 2; i++) {
+    sum = sum + li[i];
+  }
+  print(totalSum - sum);
+}
+*/

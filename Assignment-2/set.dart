@@ -6,9 +6,10 @@ traverse till value >10
 traverse after value >50
 */
 
-void printElement(e) => print(e);
-
 setFuncs() {
+  
+  printElement(e) => print(e);
+
   setIntersection(Set s1, Set s2) {
     return s1.intersection(s2);
   }

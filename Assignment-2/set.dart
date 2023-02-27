@@ -43,8 +43,8 @@ void main() {
   Set<int> s1 = {2, 30, 16, 60, 11, 150, 20, 70, 80};
   Set<int> s2 = {2, 40, 60, 6, 7, 15, 20};
 
-  setFuncs()[0](s1, s2);
-  setFuncs()[1](s1, s2);
+  print(setFuncs()[0](s1, s2));
+  print(setFuncs()[1](s1, s2));
   setFuncs()[2](s1);
   setFuncs()[3](s1);
   setFuncs()[4](s1);
